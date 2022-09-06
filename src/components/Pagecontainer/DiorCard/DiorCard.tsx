@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "../../../Atom/Text/Text";
+import Text from "../../atoms/Text/Text";
 import styles from "./diorCard.module.scss";
 import DiorChanel from "../../img/DiorChanel.jpg";
 import { HiOutlineShoppingBag } from "react-icons/hi";

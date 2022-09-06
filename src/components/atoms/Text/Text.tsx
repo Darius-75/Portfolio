@@ -12,6 +12,7 @@ type TextProps = {
   wordBreak?: "normal" | "break-all" | "keep-all" | "break-word";
   cursor?: string;
   textDecoration?: string;
+  fontWeight?: string;
 };
 
 const Text = ({
@@ -25,6 +26,7 @@ const Text = ({
   wordBreak = "break-all",
   cursor = "pointer",
   textDecoration,
+  fontWeight,
 }: TextProps) => {
   return (
     <div
@@ -39,6 +41,7 @@ const Text = ({
         padding,
         wordBreak,
         textDecoration,
+        fontWeight,
       }}
     >
       {value}
