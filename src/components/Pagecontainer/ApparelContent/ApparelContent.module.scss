@@ -1,0 +1,47 @@
+.apparelContainer{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.apparelLeftContainer{
+    background: #FFF6F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .textContainer{
+        width: 50%;
+    }
+
+
+    form{display: flex;
+    position: relative;}
+    
+input{
+    height: 50px;
+    width: 100%;
+    padding: "0 20px 0 0 ";
+    border: #B89A9C 1px solid;
+    border-radius: 30px;
+
+}
+
+.inputButton{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    right: 0;
+    color: white;
+    border: none;
+    border-radius: 30px;
+ background: #F0A9A7;
+ font-size: 20px;
+
+}
+// .spacer{
+//     height: 30vh;
+// }
+}
+
