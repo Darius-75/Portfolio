@@ -1,15 +1,19 @@
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
+
 import "./App.css";
-import PurpleContainer from "./components/Pagecontainer/purple-container/Purple-container";
 import ApparelPage from "./pages/ApparelPage";
-import WrapperCenter from "./wrapper/WrapperCenter/WrapperCenter";
 
 function App() {
   return (
-    <div>
-      <WrapperCenter>
-        <ApparelPage />
-      </WrapperCenter>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Apparel" element={<ApparelPage />} />
+        </Routes>
+      </BrowserRouter>
+      <ApparelPage />
+    </>
   );
 }
 

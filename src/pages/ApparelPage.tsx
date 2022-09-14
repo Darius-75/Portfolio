@@ -1,5 +1,5 @@
 import React from "react";
-import ApparelContent from "../components/Pagecontainer/ApparelContent/ApparelContent";
+import ApparelContent from "../components/Pagecontent/ApparelContent/ApparelContent";
 
 type Props = {};
 

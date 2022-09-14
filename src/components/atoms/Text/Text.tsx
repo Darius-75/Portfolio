@@ -13,6 +13,7 @@ type TextProps = {
   cursor?: string;
   textDecoration?: string;
   fontWeight?: string;
+  font?: "SectionTitle-font-family" | "ProjectTitle-font-family";
 };
 
 const Text = ({
@@ -24,13 +25,14 @@ const Text = ({
   padding,
   align,
   wordBreak = "break-all",
-  cursor = "pointer",
+  cursor,
   textDecoration,
   fontWeight,
+  font,
 }: TextProps) => {
   return (
     <div
-      className={styles.text}
+      className={styles.TextGlobalContainer}
       style={{
         fontSize: size,
         color: color,
@@ -42,6 +44,7 @@ const Text = ({
         wordBreak,
         textDecoration,
         fontWeight,
+        font,
       }}
     >
       {value}

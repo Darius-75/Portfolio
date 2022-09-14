@@ -1,0 +1,13 @@
+.GridProject{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 150px;
+    @media screen and (min-width:800px) {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    @media screen and (min-width:1450px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

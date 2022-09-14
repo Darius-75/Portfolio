@@ -1,10 +1,8 @@
-import React from "react";
 import styles from "./ApparelContent.module.scss";
 import woman from "../../../img/apparel/woman.jpg";
 import Text from "../../atoms/Text/Text";
 import { IoIosArrowForward } from "react-icons/io";
 import logo from "../../../img/apparel/apparelLogo.png";
-import Spacer from "../../Spacer";
 
 type Props = {};
 
